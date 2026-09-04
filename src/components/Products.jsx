@@ -8,11 +8,11 @@ function Products() {
     }
   return (
     <div className='p-6'>
-        <div className='grid grid-cols-4 gap-6'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6'>
             {
                 products.map((data) => (
                     // Card design
-                    <div className='border rounded-xl p-4 shadow'>
+                    <div key={data.id} className='border rounded-xl p-4 shadow'>
                         <img className='w-full h-48 object-cover rounded-md mb-3' src={data.image} alt="" />
 
                         <h3 className='text-lg font-bold'>{data.name}</h3>

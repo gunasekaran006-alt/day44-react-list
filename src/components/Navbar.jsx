@@ -7,7 +7,7 @@ function Navbar() {
     // forEach applicable
     return (
         <nav className='bg-gray-800 text-white flex justify-between items-center p-4'>
-            <h1 className='text-xl fw-bold'>Entri</h1>
+            <h1 className='text-xl fond-bold'>Entri</h1>
 
             <ul className='flex gap-6'>
                 {
